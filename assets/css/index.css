@@ -1,0 +1,5 @@
+header {float: left; background-color: #9999aa; padding-left: 10px; padding-right: 10px; font-family: sans-serif;}
+/* this is that weird i thing in the header */
+#i {color: white; outline: 1px solid white; padding-left:2px; padding-right:2px;font-family: serif; float: left;}
+nav.login {text-align: right;}
+nav{float: left;}
