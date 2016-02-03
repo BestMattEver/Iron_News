@@ -13,6 +13,7 @@ a:hover{animation: blink .5s infinite alternate; text-decoration: none;}
   100% {color: #ff8800}
 }
 article {background-color: #333344;}
-ol {float: left; background-color:#ccccd8; margin: 0 auto; padding-left:25px; padding-top: 5px; width: 97.5%}
+ol {float: left; background-color:#dddde8; margin: 0 auto; padding-left:25px; padding-top: 5px; width: 97.5%}
 li {padding-top:2px; font-weight: 900;}
 /* I want to make the odd number entries in the list a different color, but the design does not allow it.*/
+.tiny {font-size: 12px; font-weight: 600; color: #999999; padding-left: 15px;}
