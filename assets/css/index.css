@@ -1,8 +1,14 @@
-.site {width: 80%; margin: 0 auto}
+.site {width: 80%; margin: 0 auto}/*margin:0 auto; tells the tag, 0 margin on the top and bottom, and auto center this element left and right*/
 header {background-color: #9999aa; padding-left: 10px; padding-right: 10px; padding-top:2px; padding-bottom: 2px; font-family: sans-serif;}
 /* this is that weird i thing in the header */
 #i {color: white; outline: 1px solid white; padding-left:2px; padding-right:2px;font-family: serif; float: left;}
 .login {float: right; display: inline-block;}
 nav {display:inline-block; color:#ffffff;}
-a:link{color: #000000;}
-a:hover{color: #775511;}
+a:link{color: #000000; text-decoration: none;}
+a:hover{animation: blink .5s infinite alternate; text-decoration: none;}
+/*animated colors on links...sweeeeet!*/
+@keyframes blink{
+  0% {color: #000000}
+  50% {color: #000000}
+  100% {color: #ff8800}
+}
